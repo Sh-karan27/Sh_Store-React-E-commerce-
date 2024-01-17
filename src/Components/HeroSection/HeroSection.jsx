@@ -13,7 +13,7 @@ const HeroSection = ({ myHeading }) => {
           <h3>Welcome to</h3>
           <h1>{heading}</h1>
           <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum earum
+            Karan ipsum dolor sit amet consectetur adipisicing elit. Illum earum
             praesentium architecto ipsum labore deserunt nulla sint dolores
             repudiandae ad.
           </span>
