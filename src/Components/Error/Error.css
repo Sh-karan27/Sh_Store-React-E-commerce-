@@ -1,0 +1,29 @@
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
+}
+
+.error-container h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #e56a77;
+}
+
+.error-container h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.error-container P {
+  font-size: 1.2rem;
+  width: 50rem;
+}

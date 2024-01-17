@@ -1,0 +1,131 @@
+.single_page_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.single_page {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90rem;
+  height: 90vh;
+  align-items: center;
+  gap: 4rem;
+}
+
+.product_data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  width: 30rem;
+}
+
+.product_image {
+  width: 30rem;
+}
+
+.product_data p {
+  width: 35rem;
+}
+
+.product_data h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.product-data-real-price {
+  color: #e56a77;
+  font-size: 1rem;
+}
+.product_data_price {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.review {
+  color: rgb(120, 120, 120);
+}
+.description {
+  color: rgb(120, 120, 120);
+  font-size: 0.9rem;
+}
+
+.benifits {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 5rem;
+}
+
+.benifit-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 5rem;
+  gap: 0.5rem;
+}
+
+.benifit-data p {
+  width: 8rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+.benifit-icon {
+  color: #e56a77;
+  font-size: 2rem;
+  background-color: #aeaeae;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.product-stock,
+.id,
+.brand {
+  color: rgb(120, 120, 120);
+}
+.four-img {
+  width: 10rem;
+  cursor: pointer;
+}
+.single-image {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-screen {
+  display: flex;
+  justify-content: center;
+  height: 30rem;
+  align-items: center;
+}
+.main-screen-img {
+  width: 20rem;
+}
+
+.four-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.rating {
+  color: rgba(213, 182, 7, 0.642);
+}
+
+@media (max-width: 1024px) {
+  .main-screen-img {
+    width: 15rem;
+  }
+
+  .product_data p {
+    width: 25rem;
+  }
+  .benifits {
+    gap: 3rem;
+  }
+}

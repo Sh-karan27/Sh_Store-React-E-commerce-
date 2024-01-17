@@ -1,0 +1,47 @@
+.sort-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  height: 5rem;
+  width: 60rem;
+}
+
+.gridview-icon,
+.listview-icon {
+  font-size: 1rem;
+}
+
+.sort-button {
+  display: flex;
+  gap: 0.5rem;
+}
+.sort-btn {
+  background-color: #d8d8d8;
+  color: #252422;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 4px;
+}
+
+.active.sort-btn {
+  background-color: #252422;
+  color: #d8d8d8;
+  transition: color 0.3s;
+}
+.sort-selection {
+  outline: none;
+  padding: 4px;
+  border-color: #252422;
+  border: 1px solid;
+  border-radius: 4px;
+  outline: none;
+  background-color: #252422;
+  color: #fff;
+  cursor: pointer;
+}

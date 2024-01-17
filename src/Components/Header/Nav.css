@@ -1,0 +1,149 @@
+.navbar {
+  width: 40%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  list-style: none;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 400;
+  transition: color 0.3s linear, background-color 0.5s;
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link:hover {
+  color: #e56a77;
+  border-radius: 4px;
+  /* background-color: #393939; */
+}
+
+.cart {
+  position: relative;
+}
+.cart-total-item {
+  width: 1.1rem;
+  height: 1.1rem;
+  position: absolute;
+  background-color: #686767c7;
+  color: #e56a77;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  border-radius: 50%;
+  top: -27%;
+  right: -24%;
+  text-align: center;
+}
+
+.close {
+  display: none;
+}
+
+.mobile-navbar-btn {
+  display: none;
+  position: absolute;
+  right: 3%;
+}
+.mobile-navbar-btn i {
+  color: #fff;
+  transition: color 0.3s linear;
+}
+
+.mobile-navbar-btn i:hover {
+  color: #e56a77;
+}
+
+@media (max-width: 768px) {
+  .active.navbar-list {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .close {
+    display: inline-block;
+  }
+
+  .navbar-list {
+    display: none;
+    z-index: 999;
+  }
+  .mobile-navbar-btn {
+    display: inline-block;
+    right: 10%;
+    font-size: 2rem;
+  }
+}
+
+.login_btn {
+  background-color: #e56a77;
+  color: #fff;
+  font-size: 1rem;
+  /* width: 6.8rem; */
+  padding: 8px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s linear;
+}
+
+.login_btn:hover {
+  color: #252422;
+  background-color: #fff;
+  font-size: 1rem;
+}
+.user_name {
+  color: gray;
+  font-size: 1rem;
+}
+
+/* responsive */
+
+@media (max-width: 1024px) {
+  .navbar {
+    width: 100%;
+    justify-content: right;
+  }
+
+  .feature-product-img {
+    width: 11rem;
+    height: 9rem;
+  }
+
+  .card-data-flex {
+    gap: 3rem;
+  }
+
+  .card-data-flex h3 {
+    font-size: 1rem;
+  }
+  .featur-products {
+    width: 90vw;
+  }
+
+  .hero-img::after {
+    right: 12%;
+    top: 10%;
+  }
+}

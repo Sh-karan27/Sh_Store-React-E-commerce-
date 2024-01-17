@@ -1,0 +1,22 @@
+.cart_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.amount-toggle {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.amount-style {
+  color: #e56a77;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.amount-toggle button {
+  color: #252422;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

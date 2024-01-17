@@ -1,0 +1,38 @@
+.btn_style {
+  border: none;
+  border-radius: 50%;
+  width: 1.1rem;
+  outline: none;
+  cursor: pointer;
+  height: 1.1rem;
+  background-color: #000;
+  margin: 0.2rem;
+  opacity: 0.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_style:hover {
+  opacity: 1;
+}
+.active {
+  opacity: 1;
+}
+.colors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.colors p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.check {
+  color: #fff;
+  font-size: 0.7rem;
+}

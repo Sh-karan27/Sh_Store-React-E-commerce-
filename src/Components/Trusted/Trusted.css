@@ -1,0 +1,56 @@
+.trusted {
+  display: flex;
+  justify-content: center;
+}
+
+.trusted-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 25rem;
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+}
+
+.trusted-container div {
+  width: 60rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icons {
+  font-size: 3.5rem;
+}
+
+.logitech {
+  color: rgb(0, 170, 255);
+}
+
+.razer {
+  color: rgb(3, 248, 85);
+}
+
+.oneplus {
+  color: red;
+}
+
+.trusted-container span {
+  font-size: 1.5rem;
+  color: rgb(96, 95, 95);
+  font-weight: 300;
+}
+
+@media (max-width: 764px) {
+  .trusted-container div {
+    width: 30rem;
+  }
+  .icons {
+    font-size: 2rem;
+  }
+
+  .trusted-container span {
+    font-size: 1rem;
+  }
+}

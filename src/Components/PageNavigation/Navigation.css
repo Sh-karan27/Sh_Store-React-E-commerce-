@@ -1,0 +1,13 @@
+.page_navigation {
+  display: flex;
+  justify-content: flex-start;
+  height: 10rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.page_name {
+  color: #e56a77;
+}
+.page_loading {
+  font-size: 1.3rem;
+}

@@ -1,0 +1,49 @@
+.feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243, 243, 243);
+  width: 120rem;
+  height: 40rem;
+  line-height: 4rem;
+  position: relative;
+}
+
+.common-heading {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.intro-data {
+  font-size: 1.2rem;
+  color: #e56a77;
+}
+
+.featur-products {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  height: 30rem;
+}
+
+@media (max-width: 768px) {
+  .feature-container {
+    height: 90rem;
+  }
+  .featur-products {
+    flex-direction: column;
+    height: 30rem;
+    margin-top: 15rem;
+  }
+}

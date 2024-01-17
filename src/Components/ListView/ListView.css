@@ -1,0 +1,80 @@
+.list-view-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(214, 213, 213);
+  width: 50rem;
+  height: 15rem;
+  gap: 5rem;
+}
+
+.list_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.listview-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 12rem;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+  margin: 1rem;
+}
+.listview-product::before {
+  content: '';
+  position: absolute;
+  width: 17rem;
+  height: 12rem;
+  background-color: #0000007d;
+  z-index: 999;
+  transition: transform 0.5s;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+  transform: scaleX(0);
+  display: flex;
+  align-items: center;
+  left: 0;
+}
+
+.listview-product:hover::before {
+  transform: scale(1);
+}
+
+.listview-product-img {
+  display: flex;
+  justify-content: center;
+  width: 15rem;
+  height: 10rem;
+}
+
+.listview-card-data h3 {
+  color: rgb(104, 103, 103);
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.listview-card-data p {
+  color: rgb(120, 120, 120);
+  font-size: 0.9rem;
+}
+.listview-card-data {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 1rem;
+}
+
+@media (max-width: 1024px) {
+
+  .list-view-card {
+   
+    width: 40rem;
+  }
+}
