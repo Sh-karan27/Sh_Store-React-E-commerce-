@@ -11,7 +11,7 @@ const getLocalCartData = () => {
   // } else {
   //   return JSON.parse(localCartData);
   // }
-  const parsedData = json.PARSE(localCartData);
+  const parsedData = JSON.parse(localCartData);
   if (!Array.isArray(parsedData)) return [];
   return parsedData;
 };
