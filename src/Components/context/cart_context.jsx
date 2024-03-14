@@ -6,11 +6,14 @@ const CartContext = createContext();
 const getLocalCartData = () => {
   let localCartData = localStorage.getItem('sh_store');
 
-  if (localCartData === []) {
-    return [];
-  } else {
-    return JSON.parse(localCartData);
-  }
+  // if (localCartData === []) {
+  //   return [];
+  // } else {
+  //   return JSON.parse(localCartData);
+  // }
+  const parsedData = json.PARSE(localCartData);
+  if (!Array.isArray(parsedData)) return [];
+  return parsedData;
 };
 
 const initialState = {
